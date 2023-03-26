@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.calculator-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.calculator-section .calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 480px;
+  height: 600px;
+  border: 1px dotted black;
+  padding: 10px;
+  position: relative;
+}
+.calculator-section .calculator .input {
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  height: 60px;
+  text-align: right;
+  font-size: 2.5rem;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+}
+.calculator-section .calculator .operators {
+  display: flex;
+  gap: 10px;
+}
+.calculator-section .calculator .operators div {
+  width: 105px;
+  height: 90px;
+  background-color: #7882A4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 28px;
+}
+.calculator-section .calculator .numbers {
+  display: flex;
+  gap: 10px;
+}
+.calculator-section .calculator .numbers div {
+  width: 105px;
+  height: 90px;
+  background-color: #D6E4E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.equal {
+  position: absolute;
+  width: 105px;
+  height: 390px;
+  background-color: #19A7CE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 18px;
+  bottom: 27px;
+  cursor: pointer;
+  font-size: 28px;
+}/*# sourceMappingURL=style.css.map */
